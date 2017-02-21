@@ -1,6 +1,6 @@
 <?php
     $con = mysqli_connect("mysql.ctsaq7jylp2v.ap-northeast-1.rds.amazonaws.com",
-    "root", "19871982", "db");
+    "root", "-------", "db");
     $result = mysqli_query($con, "SELECT * FROM notice ORDER BY noticeDate DESC");
     $response = array();
 
