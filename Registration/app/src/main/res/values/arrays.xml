@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>computer_science</item>
+        <item>business_administration</item>
+        <item>economics</item>
+    </string-array>
+    <string-array name="year">
+        <item>2017</item>
+        <item>2018</item>
+    </string-array>
+    <string-array name="term">
+        <item>first_semester</item>
+        <item>second_semester</item>
+    </string-array>
+    <string-array name="graduateArea">
+        <item>graduate_major</item>
+    </string-array>
+    <string-array name="universityArea">
+        <item>major</item>
+        <item>liberal_arts</item>
+    </string-array>
+    <string-array name="graduateMajor">
+        <item>computer_science</item>
+        <item>business_administration</item>
+        <item>economics</item>
+    </string-array>
+    <string-array name="universityRefinementMajor">
+        <item>English</item>
+        <item>Japanese</item>
+        <item>computer</item>
+    </string-array>
+    <string-array name="universityMajor">
+        <item>computer_science</item>
+        <item>business_administration</item>
+        <item>economics</item>
+    </string-array>
+
+
+</resources>

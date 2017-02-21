@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="add"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:id="@+id/addButton"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="8dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="freshman"
+                android:id="@+id/courseGrade"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="course title"
+                android:id="@+id/courseTitle"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="professor"
+                android:id="@+id/courseProfessor"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3grade"
+                android:id="@+id/courseCredit"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 class"
+                android:id="@+id/courseDivide"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="limit on attendee"
+                android:id="@+id/coursePersonnel"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#f92a3f"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="course time"
+                android:id="@+id/courseTime"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
